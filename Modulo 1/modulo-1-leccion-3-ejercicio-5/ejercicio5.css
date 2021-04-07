@@ -1,0 +1,13 @@
+.ejercicio {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.castor {
+  width: 100px;
+}
