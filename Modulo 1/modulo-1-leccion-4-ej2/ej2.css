@@ -1,0 +1,12 @@
+.container {
+  box-sizing: border-box;
+  background-color: greenyellow;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.item {
+  background-color: hotpink;
+  border: black solid;
+  width: 200px;
+}
