@@ -1,0 +1,38 @@
+.container {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  color: pink;
+  box-sizing: border-box;
+  margin: 20px 20px;
+}
+
+.yellow {
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  position: absolute;
+  padding: 40px;
+  border: 2px blue solid;
+  box-sizing: border-box;
+}
+
+.green {
+  height: 300px;
+  width: 300px;
+  padding: 75px;
+  background-color: green;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  box-sizing: border-box;
+.blue {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  position: absolute;
+  border: 20px orangered dotted;
+  box-sizing: border-box;
+  top: 175px;
+  left: 175px;
+}
