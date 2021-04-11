@@ -1,0 +1,10 @@
+.textbox {
+  font-size: 32px;
+}
+
+.cookies {
+  background-color: yellow;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+}
