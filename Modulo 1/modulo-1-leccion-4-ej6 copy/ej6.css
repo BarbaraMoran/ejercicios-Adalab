@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.item {
+  height: 15vh;
+  flex-grow: 1;
+}
+
+.item.yellow {
+  background-color: yellow;
+  flex-grow: 6;
+  text-align: center;
+}
+
+.item.blue {
+  background-color: cadetblue;
+  flex-grow: 0;
+  text-align: center;
+}
+
+.item.pink {
+  background-color: pink;
+  flex-grow: 6;
+  text-align: center;
+}
+
+.orange {
+  background-color: orangered;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 4vh;
+  box-sizing: border-box;
+}
+
+.green {
+  background-color: greenyellow;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 4vh;
+  box-sizing: border-box;
+}
