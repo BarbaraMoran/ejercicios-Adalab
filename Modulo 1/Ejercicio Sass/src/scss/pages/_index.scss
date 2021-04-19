@@ -1,0 +1,40 @@
+.main {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: floralwhite;
+  background-color: cornflowerblue;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  @media (min-width: 768px) {
+    font-size: 26px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 30px;
+  }
+}
+
+.mainsection {
+  height: 45px;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__h2 {
+    color: gold;
+    font-size: 24px;
+  }
+
+  &__button {
+    border-radius: 5px;
+    color: blue;
+    background-color: coral;
+  }
+}

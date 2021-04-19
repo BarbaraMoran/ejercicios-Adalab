@@ -1,0 +1,9 @@
+.textbox {
+  width: 86%;
+  background-color: coral;
+  margin: auto;
+}
+
+.text {
+  font-size: 100px;
+}
