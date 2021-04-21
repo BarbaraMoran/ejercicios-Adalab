@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+
+.container-fluid {
+  width: 100vw;
+}
+
+.row {
+  width: 100%;
+}
+
+.item {
+  background-color: aqua;
+  margin: 5px 5px;
+  height: 20px;
+}

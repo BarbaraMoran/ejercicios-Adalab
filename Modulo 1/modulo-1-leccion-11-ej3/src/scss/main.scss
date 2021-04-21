@@ -1,0 +1,38 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20vh 1fr 20vh;
+}
+
+.item {
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header {
+  grid-column: span 12;
+  grid-row: span 1;
+  background-color: pink;
+}
+
+.menu {
+  grid-column: span 4;
+  grid-row: span 1;
+  background-color: purple;
+}
+
+.content {
+  grid-column: span 8;
+  grid-row: span 1;
+  background-color: coral;
+}
+
+.footer {
+  grid-column: span 12;
+  grid-row: span 1;
+  background-color: cornflowerblue;
+}
