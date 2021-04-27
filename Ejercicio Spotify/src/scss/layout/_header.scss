@@ -1,0 +1,24 @@
+.header {
+  background-color: black;
+  width: 100vw;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__item--logo {
+    height: 25px;
+    padding-left: 15px;
+  }
+  &__item--title {
+    display: none;
+  }
+  &__item--nav {
+    padding-right: 25px;
+
+    .fa-bars {
+      color: white;
+      height: 40px;
+    }
+  }
+}
