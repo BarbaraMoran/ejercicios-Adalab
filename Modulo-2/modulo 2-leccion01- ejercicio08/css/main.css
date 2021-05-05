@@ -1,0 +1,10 @@
+.button {
+  padding: 10px;
+  border: solid 2px blue;
+  color: black;
+  background-color: orchid;
+}
+
+.off {
+  opacity: 50%;
+}

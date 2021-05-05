@@ -7,7 +7,7 @@ let selectedAdalaber = 'Fulanita';
 selectedAdalaber = 'Menganita';
 
 
-titleElement.innerHTML = titleElement.innerHTML + selectedAdalaber;
+titleElement.innerHTML += selectedAdalaber;
 
 //SOLUCIONES FALLIDAS
 //titleElement.innerHTML = titleElement.innerHTML + '.item1;
