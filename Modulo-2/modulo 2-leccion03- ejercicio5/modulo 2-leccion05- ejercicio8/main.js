@@ -1,6 +1,14 @@
 'use strict';
 
-const body = document.querySelector('.js-body');
+const buttonEl = document.querySelector('.js-button');
+
+function addButtonClass() {
+    buttonEl.classList.toggle("buttonorange");
+}
+
+buttonEl.addEventListener('click', addButtonClass);
+
+/*const body = document.querySelector('.js-body');
 
 
 function background(press) {
@@ -16,5 +24,5 @@ function background(press) {
     }
 }
 
-document.addEventListener('keydown', (background)); 
+document.addEventListener('keydown', (background)); */
 
