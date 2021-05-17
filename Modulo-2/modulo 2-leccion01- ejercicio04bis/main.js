@@ -1,15 +1,9 @@
-'use strict';
+"use strict";
 
-const titleElement = document.querySelector('.js-title');
-const item1 = document.querySelector('.item1');
-const item2 = document.querySelector('.item2');
-let selectedAdalaber = 'Fulanita';
-selectedAdalaber = 'Menganita';
+const titleElement = document.querySelector(".js-title");
+const item1 = document.querySelector(".item1");
+const item2 = document.querySelector(".item2");
+let selectedAdalaber = item1;
+selectedAdalaber = item2;
 
-console.log(item1);
-
-//titleElement.innerHTML += selectedAdalaber;
-
-
-titleElement.innerHTML += item2.innerHTML; 
-
+titleElement.innerHTML += selectedAdalaber.innerHTML;
