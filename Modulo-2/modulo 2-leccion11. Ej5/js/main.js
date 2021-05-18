@@ -38,10 +38,13 @@ function showTheme() {
   }
 }
 
-showTheme();
+function checkItem() {}
+
+document.addEventListener("load", showTheme);
 
 //otra manera
 /*
+
 function changeTheme(event) {
   const selectedOption = event.currentTarget;
   localStorage.setItem("value", selectedOption.value);
@@ -71,6 +74,6 @@ function showTheme() {
   }
 }
 
-showTheme();
-
+//showTheme();
+document.addEventListener("load", showTheme);
 */
