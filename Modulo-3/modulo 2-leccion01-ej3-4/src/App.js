@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./App.scss";
 
 const data = {
   image:
@@ -18,7 +18,12 @@ class App extends Component {
   render() {
     const topCard = (
       <div className="top__card">
-        <img className="card__img" src={data.image} alt="tiger" title="tiger" />
+        <img
+          className="card__img"
+          src={data.image}
+          alt="Bob Dylan"
+          title="tiger"
+        />
         <div className="top__titles">
           <h2 className="card__name">{data.cardTitle}</h2>
           <h4 className="card__date">{data.cardDate}</h4>
