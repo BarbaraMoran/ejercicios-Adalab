@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  width: 100vw;
+
+  .left {
+    width: 50vw;
+    background-color: peru;
+    color: rgb(33, 86, 185);
+    text-align: center;
+  }
+
+  .right {
+    width: 50vw;
+    background-color: rgb(33, 86, 185);
+    color: burlywood;
+    text-align: center;
+  }
+}

@@ -18,4 +18,9 @@ class RandomCat extends React.Component {
   }
 }
 
+RandomCat.defaultProps = {
+  width: "400",
+  height: "200",
+};
+
 export default RandomCat;
