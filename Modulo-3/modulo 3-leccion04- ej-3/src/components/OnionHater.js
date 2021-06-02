@@ -3,14 +3,14 @@ import React from "react";
 class OnionHater extends React.Component {
   constructor(props) {
     super(props);
-    this.isHating = false;
+    //this.isHating = false;
     this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event) {
     const backgroundEl = document.querySelector(".js-background");
     if (event.target.value.toLowerCase().includes("cebolla")) {
-      this.isHating = true;
+      //this.isHating = true;
       backgroundEl.classList.add("red");
       backgroundEl.classList.remove("white");
     } else {
@@ -18,7 +18,7 @@ class OnionHater extends React.Component {
       backgroundEl.classList.add("white");
     }
 
-    this.forceUpdate();
+    //this.forceUpdate();
   }
   render() {
     return (
