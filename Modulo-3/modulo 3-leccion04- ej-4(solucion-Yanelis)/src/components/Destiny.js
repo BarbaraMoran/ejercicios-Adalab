@@ -4,27 +4,27 @@ import CityImage from "./CityImage";
 class Destiny extends React.Component {
   constructor(props) {
     super(props);
-    this.myDestiny = "...";
-    this.onChangeListener = this.onChangeListener.bind(this);
+    this.myCity = "...";
+    this.onChangeHandler = this.onChangeHandler.bind(this);
   }
 
-  onChangeListener(event) {
-    this.myDestiny = event.target.value;
+  onChangeHandler(ev) {
+    this.myCity = ev.target.value;
+    alert(`Tu destino es ir a ${this.myCity}`);
     this.forceUpdate();
   }
 
   render() {
     return (
-      <div className="content">
-        <select onChange={this.onChangeListener}>
-          <option value="BuenosAires">Buenos Aires</option>
-          <option value="Sidney">Sydney</option>
+      <div>
+        <select name="destinies" onChange={this.onChangeHandler}>
+          <option value="Buenos Aires">Buenos Aires</option>
+          <option value="Sydney">Sydney</option>
           <option value="Praga">Praga</option>
           <option value="Boston">Boston</option>
           <option value="Tokio">Tokio</option>
         </select>
-
-        <CityImage city={this.myDestiny} />
+        <CityImage city={this.myCity} />
       </div>
     );
   }
