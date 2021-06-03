@@ -7,7 +7,7 @@ class App extends React.Component {
     this.state = {
       style: "blue",
     };
-    this.handleClick.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
