@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, Route, Switch } from "react-router-dom";
 import Home from "./Home";
-import About from "./About";
-import Pricing from "./Pricing";
+import Counter from "./Counter";
+import Relax from "./Relax";
 
 const App = () => {
   return (
@@ -11,13 +11,10 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/counter">Counter</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/pricing">Pricing</Link>
+              <Link to="/relax">Relax</Link>
             </li>
           </ul>
         </nav>
@@ -25,8 +22,8 @@ const App = () => {
       <main>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/pricing" component={Pricing} />
+          <Route path="/counter" component={Counter} />
+          <Route path="/relax" component={Relax} />
         </Switch>
       </main>
     </div>

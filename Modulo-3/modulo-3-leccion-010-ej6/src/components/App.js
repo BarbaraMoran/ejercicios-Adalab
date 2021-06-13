@@ -1,8 +1,7 @@
 import React from "react";
 import { Link, Route, Switch } from "react-router-dom";
 import Home from "./Home";
-import About from "./About";
-import Pricing from "./Pricing";
+import Text from "./Text";
 
 const App = () => {
   return (
@@ -11,13 +10,7 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/pricing">Pricing</Link>
+              <Link to="/text">textArea</Link>
             </li>
           </ul>
         </nav>
@@ -25,8 +18,7 @@ const App = () => {
       <main>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/pricing" component={Pricing} />
+          <Route path="/text" component={Text} />
         </Switch>
       </main>
     </div>
