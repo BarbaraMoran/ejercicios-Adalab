@@ -1,23 +1,27 @@
 const ENDPOINT = "https://randomuser.me/api/?results=50";
 
-const fetchUsers = () => {
+const getApiData = () => {
   return fetch(ENDPOINT)
     .then((response) => response.json())
     .then((data) => {
-      return data.results.map((user) => {
+      //cada user es un objeto.
+      const cleanData = data.results.map((user) => {
+        //Retornamos un objeto
         return {
+          name: `${user.name.first} ${user.name.last}`,
           id: user.login.uuid,
           age: user.dob.age,
           username: user.login.username,
           city: user.location.city,
           country: user.location.country,
-          name: user.name.first + " " + user.name.last,
           email: user.email,
           gender: user.gender,
           image: user.picture.large,
         };
       });
+
+      return cleanData;
     });
 };
 
-export default fetchUsers;
+export default getApiData;
