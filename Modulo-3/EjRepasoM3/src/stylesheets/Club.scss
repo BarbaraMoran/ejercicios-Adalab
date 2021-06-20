@@ -1,0 +1,23 @@
+.article {
+  display: flex;
+  gap: 20px;
+
+  &__icon {
+    font-size: 50px;
+  }
+
+  .info__members {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    max-height: 200px;
+  }
+}
+
+.members {
+  font-size: 10px;
+  margin-right: 15px;
+}
